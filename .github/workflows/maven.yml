@@ -24,4 +24,4 @@ jobs:
       run: mvn -B package --file pom.xml
     - name:executing
       run:
-      Cat Build_show
+      Cat Build_show.java
