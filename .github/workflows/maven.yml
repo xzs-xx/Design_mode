@@ -21,8 +21,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run:
-        mvn -B package --file pom.xml
-        cat ID_Card_Test.java
-      
+      run: mvn -B package --file pom.xml
+      mvn test -Dtest=*Test
       
