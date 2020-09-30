@@ -23,5 +23,5 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name:test
-      run: mvn test -Dtest=*Test
+      run: mvn test -Dtest=ID_Card_Test
       
