@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import build_case.Meal;
 import build_case.MealBuilder;
 
-public class Build_show {
+public class Build_show_Test {
 	@Test
 	public void showbuild() {
 		MealBuilder mealBuilder = new MealBuilder();
