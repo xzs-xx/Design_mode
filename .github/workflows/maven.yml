@@ -22,6 +22,10 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name:test
-      run: mvn test -Dtest=ID_Card_Test
-      
+  test:
+    name:Test
+     runs-on: ubuntu-latest
+     steps:
+      - uses: actions/checkout@v2
+      - name: test
+        run: mvn test -Dtest = ID_Card_Test
