@@ -20,6 +20,5 @@ public class Build_show {
 		System.out.println("\n\nNon-Veg Meal");
 		nonVegMeal.showItems();
 		System.out.println("Total Cost: " +nonVegMeal.getCost());
-		assertEquals(1, 2);
 	}
 }
