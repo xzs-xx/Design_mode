@@ -1,5 +1,7 @@
 package 建造者模式;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
 import build_case.Meal;
@@ -18,5 +20,6 @@ public class Build_show {
 		System.out.println("\n\nNon-Veg Meal");
 		nonVegMeal.showItems();
 		System.out.println("Total Cost: " +nonVegMeal.getCost());
+		assertEquals(1, 2);
 	}
 }
