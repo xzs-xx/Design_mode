@@ -10,7 +10,7 @@ public class ID_Card {
 		return string_id;
 	}
 	public void setString_id(String string_id) {
-		this.string_id = string_id;
+		ID_Card.string_id = string_id;
 	}
 	public static synchronized ID_Card getInstance() {
 		if(string_id == null) {

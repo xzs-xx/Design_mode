@@ -11,7 +11,6 @@ public class ID_Card_Test {
 		single_case.e.ID_Card id = single_case.e.ID_Card.getInstance();
 		id.setString_id("123445");
 		assertEquals(single_case.e.ID_Card.getInstance(), id);
-		assertEquals(1, 2);
 	}
 	
 	@Test
